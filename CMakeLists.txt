@@ -15,10 +15,10 @@ add_executable(easynode
 )
 
 target_include_directories(easynode PUBLIC
+        pico-lorawan/lib/LoRaMac-node/src/system
         no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include
         no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver
         no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source
-        pico-lorawan/lib/LoRaMac-node/src/system
         )
 
 target_link_libraries(easynode pico_lorawan hardware_adc pico_stdlib hardware_clocks
