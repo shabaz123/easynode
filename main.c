@@ -26,6 +26,7 @@
 #include "sd_card.h"
 
 // ***************** defines ***************
+// #define NVM_USAGE_CHECK
 // power enable pin
 #define VP_EN_PIN 22
 // keep_awake pin
@@ -1030,9 +1031,11 @@ get_iso_time(char* datetime_string)
 
 void
 poweroff(void) {
+#ifdef NVM_USAGE_CHECK
     do {
         sleep_ms(100);
     } while(lorawan_nvm_in_use());
+#endif
     KEEP_AWAKE_OFF; // tell the system power controller to remove power from the Pico
 }
 
