@@ -1,4 +1,4 @@
-LoraWan EasyNode
+LoraWAN EasyNode
 ================
 
 <img width="100%" align="left" src="hardware\easynode-complete.jpg">
