@@ -139,4 +139,15 @@ There are a couple of open drain outputs on J2, for controlling devices such as 
 
 Additional I2C sensors can be attached to the header pins labeled J2. There are a couple of inputs too, but I have not implemented any code to support that yet.
 
+Appendix: Hardware Change Log
+=============================
+
+**Rev 1.0 - shabaz - July 2022** Initial version, requires a couple of bodge wires
+
+**Rev 1.2 - shabaz - July 2022** Fixed the wire bodges, and added a Security Controller (U6) and added a 2-pin connector for MIC280 external temperature sensor.
+
+**Rev 1.3 - shabaz - July 2022** Removed MIC280 and its 2-pin connector, and replaced with STS21 which is a better temperature sensor.
+
+
+
 
