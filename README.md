@@ -5,7 +5,7 @@ LoraWAN EasyNode
 
 What does it do?
 ================
-The LoRaWAN EasyNode is extremely low-cost and easy to build (all hand-solderable) battery-powered devicer that has these capabilities:
+The LoRaWAN EasyNode is extremely low-cost and easy to build (all hand-solderable) battery-powered (3xAAA cells) device that has these capabilities:
 
 * Temperature measurement from the on-board sensor
 * Device configuration via SD card text file
