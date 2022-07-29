@@ -14,7 +14,9 @@ The LoRaWAN EasyNode is extremely low-cost and easy to build (all hand-solderabl
 * Sending temperature to a LoRaWAN network (i.e. data uplink)
 * Receiving ON/OFF for two open collector outputs from the LoRaWAN network (i.e. data downlink)
 * Device sleep and wake up at time intervals
- 
+
+<img width="100%" align="left" src="hardware\lowawan-solution-overview.png">
+
 Building It
 ===========
 Upload the board zip file (it contains Gerber files) to any PCB manufacturer (such as JLC PCB or PCBWay) website, and it should cost under $10 for five boards.
