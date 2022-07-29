@@ -23,9 +23,9 @@ All the parts are listed in the [Bill of Materials](https://github.com/shabaz123
 
 Solder the parts in the order they are listed in the bill of materials. The security chip U6 is small and harder to solder than the rest of the parts, but it is optional (it is not currently supported in the software) so it can be omitted for now if you're just evaluating other LoRaWAN aspects.
 
-<img width="100%" align="left" src="hardware\easynode-front-render-rev1-2.png">
+<img width="100%" align="left" src="hardware\easynode-front-render-rev1-3.png">
 
-<img width="100%" align="left" src="hardware\easynode-underside-render-rev1-2.png">
+<img width="100%" align="left" src="hardware\easynode-underside-render-rev1-3.png">
 
 MSP430 Firmware
 ===============
